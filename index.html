@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAN FITNESS</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Pacifico&display=swap" rel="stylesheet">
+<link rel "stylesheet" href="style.css">
+<style>
+    body {
+        font-family: 'Pacifico', cursive;
+
+        margin: 0px;
+        padding: 0px;
+        background: url('aman.jpg');
+    }
+
+    .left {
+        display: inline-block;
+     
+        position: absolute;
+        left: 22px;
+        top: 12px;
+
+    }
+     
+    .left img{
+        width: 83px;
+        border-radius: 50px;
+        font-size: medium;
+        padding: 6px;
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+       
+        font-size: 20px;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        
+
+
+    }
+
+    .navbar {
+
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font: size 25px;
+
+    }
+
+    .navbar li a {
+
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        text-decoration: underline;
+        color: rgb(211, 17, 17);
+
+    }
+
+    .btn {
+        font-family: 'Pacifico', cursive;
+        margin: 0px 5px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+ }
+
+   .btn:hover{
+         background-color: rgb(19, 12, 119);
+   }
+
+    .container{
+        font-family: 'Pacifico', cursive;
+        
+        margin: 106px 80px;
+        padding: 55px;
+        width: 33%;
+        border-radius: 28px;
+        font-weight: 100;
+    }
+
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 364px;
+        padding: 8px;
+        border-radius: 20px;
+        margin: 11px;
+        
+    }
+
+    .container button{
+          
+        display: block;
+        width: 60%;
+        margin: auto;
+
+
+    }
+
+</style>
+
+<body>
+
+    <header class="header">
+        <!-- left box for logo-->
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>Aman Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">AboutUs</a></li>
+                <li><a href="https://bestefficient.com/fitness-calculators/">Gym Calculator</a></li>
+                <li><a href="">ContactUs</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+         <div class="container">
+ <h1>Join the best Gym of Lucknow Now</h1>
+ 
+ <form action="no action.php">
+
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Name">
+    </div>
+
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Age">
+    </div>
+
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your E-mail">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Mobile No">
+    </div>
+
+    <button class="btn">Submit</button>
+
+</body>
+
+</html>
